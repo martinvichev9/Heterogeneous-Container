@@ -14,7 +14,7 @@ public:
 	
 	virtual void insert(const T&) = 0;			
 	virtual void remove() = 0;						
-    virtual bool member(const T&) const = 0;
+    	virtual bool member(const T&) const = 0;
 	virtual bool search(Condition<T>) const = 0;
 	virtual unsigned size() const = 0;
 	virtual void addMin(const T&) = 0;			//adds in a container with the smallest size
@@ -68,7 +68,7 @@ public:
 		}
 		return false;
 	}
-	unsigned size()const
+	unsigned size() const
 	{
 		return LinkedList<Container<T>*>::size();
 	}
