@@ -5,7 +5,7 @@ can be **stack, doubly linked list or queue**. A **linked list** is used to pres
 
 Features of the heterogeneous container:
 -  Reading and parsing information from file and then storing it in a appropriate container
--  (creating new containers and storing them in the heteroeneous one);
+(creating new containers and storing them in the heteroeneous one);
 -  Adding or removing elements;
 -  Checking if element is present in some container of heterogeneous container;
 -  Adding an element to the container with the smallest size;
